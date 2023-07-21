@@ -25,8 +25,21 @@ class Employee{
 
 void main(){
   Employee emp=Employee();
-  emp.setId(100);
+
+  emp.setId(10);
   emp.setName('Kavya');
+
+  print('ID : ${emp.getId()}');
+  print('Name : ${emp.getName()}');
+
+  emp.setId(11);
+  emp.setName('Mushrifa');
+
+  print('ID : ${emp.getId()}');
+  print('Name : ${emp.getName()}');
+
+  emp.setId(12);
+  emp.setName('Sameea');
 
   print('ID : ${emp.getId()}');
   print('Name : ${emp.getName()}');
