@@ -36,7 +36,7 @@ class Area{
      double a;
      print('Enter the side of cube : ');
      a=double.parse(stdin.readLineSync()!);
-     double area=6*a;
+     double area=6*(a*a);
      print('Area of cube : $area');
   }
 }
